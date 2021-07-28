@@ -53,6 +53,20 @@
             "Target": "Spot",
             "Selectable": false,
             "Default": 5
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Audience",
+            "DataSource": "Metrics",
+            "Target": "Impacts",
+            "Selectable": false
+        },
+        {
+            "Name": "Investment",
+            "Type": "Frames",
+            "DataSource": "GBP",
+            "Target": "Fixed",
+            "Selectable": false
         }
     ],
     "AvailsGroupBy": [

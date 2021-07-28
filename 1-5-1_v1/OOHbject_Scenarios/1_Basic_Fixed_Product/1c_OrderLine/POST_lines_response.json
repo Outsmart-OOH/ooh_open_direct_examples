@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/lines/lines_response.json",
+    "BookingStatus": "Draft",
+    "StateChangeReason": "",
+    "Comment": "Free form comment",
+    "Cost": 8000,
+    "EndDate": "2014-12-10T18:00:00.000Z",
+    "Id": "345233",
+    "Name": "My Line 1",
+    "OrderId": "1235872",
+    "ProductId": "001",
+    "OOHProviderData": {
+        "PoNumber": "88873"
+    },
+    "StartDate": "2014-12-05T06:00:00.000Z",
+    "Targeting": [],
+    "Availability": [
+        {
+            "Status": "Available",
+            "Reason": "",
+            "Comment": "",
+            "Context": [],
+            "Targeting": []
+        }
+    ]
+}
