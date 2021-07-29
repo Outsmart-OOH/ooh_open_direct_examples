@@ -19,8 +19,8 @@
     "LeadTime": "T2H",
     "Name": "Basic Fixed Product ",
     "ReservedExpiryTime": "P7D",
-    "AdvertiserIdAccess": ["adid1","adid2","adid3"],
-    "BuyerIdAccess": ["Buyidx"],
+    "AdvertiserIdAccess": [],
+    "BuyerIdAccess": [],
     "ThirdPartyIdAccess": [],
     "TargetTypes": [
         {
