@@ -1,0 +1,54 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/lines/lines_response.json",
+    "OrderId": "1235872",
+    "Id": "345233",
+    "BookingStatus": "Draft",
+    "ProductId": "002",
+    "StartDate": "2021-11-01T00:00:00.000Z",
+    "EndDate": "2021-11-14T00:00:00.000Z",
+    "Cost": 600,
+    "Name": "My Line 1",
+    "OOHProviderData": {
+        "PoNumber": "88873"
+    },
+    "Targeting": [
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "frame_id",
+            "TargetValues": [
+                "1234931339",
+                "1235190735"
+            ]
+        }
+    ],
+    "Availability": [
+        {
+            "Status": "Unavailable",
+            "Reason": "",
+            "Comment": "",
+            "Context": [],
+            "Targeting": [
+                {
+                    "Name": "Inventory",
+                    "Type": "Frames",
+                    "DataSource": "Space",
+                    "Target": "frame_id",
+                    "TargetValues": [
+                        "1235190735"
+                    ]
+                },
+                {
+                    "Name": "Delivery",
+                    "Type": "Frames",
+                    "DataSource": "Time",
+                    "Target": "Weeks",
+                    "TargetValues": [
+                        "1"
+                    ]
+                }
+            ]
+        }
+    ]
+}
