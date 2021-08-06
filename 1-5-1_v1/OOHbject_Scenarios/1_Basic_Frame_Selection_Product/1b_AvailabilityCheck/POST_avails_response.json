@@ -27,19 +27,19 @@
                             {
                                 "Name": "Delivery",
                                 "Type": "Frames",
-                                "DataSource": "ShareOfDisplay",
-                                "Target": "ShareOfTime",
+                                "DataSource": "Time",
+                                "Target": "Weeks",
                                 "TargetValues": [
-                                    "16.6"
+                                    "0"
                                 ]
                             },
                             {
                                 "Name": "Delivery",
                                 "Type": "Frames",
-                                "DataSource": "Time",
-                                "Target": "Weeks",
+                                "DataSource": "ShareOfDisplay",
+                                "Target": "ShareOfTime",
                                 "TargetValues": [
-                                    "0"
+                                    "16.6"
                                 ]
                             },
                             {
@@ -65,19 +65,19 @@
                             {
                                 "Name": "Delivery",
                                 "Type": "Frames",
-                                "DataSource": "ShareOfDisplay",
-                                "Target": "ShareOfTime",
+                                "DataSource": "Time",
+                                "Target": "Weeks",
                                 "TargetValues": [
-                                    "16.6"
+                                    "1"
                                 ]
                             },
                             {
                                 "Name": "Delivery",
                                 "Type": "Frames",
-                                "DataSource": "Time",
-                                "Target": "Weeks",
+                                "DataSource": "ShareOfDisplay",
+                                "Target": "ShareOfTime",
                                 "TargetValues": [
-                                    "1"
+                                    "16.6"
                                 ]
                             },
                             {
@@ -103,19 +103,19 @@
                             {
                                 "Name": "Delivery",
                                 "Type": "Frames",
-                                "DataSource": "ShareOfDisplay",
-                                "Target": "ShareOfTime",
+                                "DataSource": "Time",
+                                "Target": "Weeks",
                                 "TargetValues": [
-                                    "16.6"
+                                    "0"
                                 ]
                             },
                             {
                                 "Name": "Delivery",
                                 "Type": "Frames",
-                                "DataSource": "Time",
-                                "Target": "Weeks",
+                                "DataSource": "ShareOfDisplay",
+                                "Target": "ShareOfTime",
                                 "TargetValues": [
-                                    "0"
+                                    "16.6"
                                 ]
                             },
                             {
@@ -141,19 +141,19 @@
                             {
                                 "Name": "Delivery",
                                 "Type": "Frames",
-                                "DataSource": "ShareOfDisplay",
-                                "Target": "ShareOfTime",
+                                "DataSource": "Time",
+                                "Target": "Weeks",
                                 "TargetValues": [
-                                    "16.6"
+                                    "1"
                                 ]
                             },
                             {
                                 "Name": "Delivery",
                                 "Type": "Frames",
-                                "DataSource": "Time",
-                                "Target": "Weeks",
+                                "DataSource": "ShareOfDisplay",
+                                "Target": "ShareOfTime",
                                 "TargetValues": [
-                                    "1"
+                                    "16.6"
                                 ]
                             },
                             {

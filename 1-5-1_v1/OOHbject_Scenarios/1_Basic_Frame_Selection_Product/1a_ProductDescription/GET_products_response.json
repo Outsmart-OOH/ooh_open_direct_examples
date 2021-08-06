@@ -57,6 +57,12 @@
             "Type": "Frames",
             "DataSource": "Space",
             "Target": "frame_id"
+        },
+        {
+            "Name":"Delivery",
+            "Type": "Frames",
+            "DataSource": "Time",
+            "Target": "Weeks"
         }
     ],
     "TimeZone": "GMT"
