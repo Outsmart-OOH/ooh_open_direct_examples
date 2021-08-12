@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/products/products_response.json",
+    "Name": "Basic Frame Count Product ",
+    "Description": "Basic Frame Count Example",
+    "Id": "003",
+    "LeadTime": "T24H",
+    "TargetTypes": [
+        
+    ],
+    "AvailsGroupBy": [
+        
+    ],
+    "TimeZone": "GMT"
+}
