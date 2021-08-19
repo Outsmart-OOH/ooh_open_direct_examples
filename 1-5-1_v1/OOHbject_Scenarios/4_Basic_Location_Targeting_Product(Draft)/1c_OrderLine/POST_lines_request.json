@@ -8,6 +8,12 @@
         "PoNumber": "88873"
     },
     "Targeting": [
-      
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Metrics",
+            "Target": "FramesCount",
+            "TargetValues": ["4"]
+        }
     ]
 }
