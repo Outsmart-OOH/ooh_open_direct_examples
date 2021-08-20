@@ -2,6 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/products/products_response.json",
     "Name": "Basic Location Targeting Example",
     "Description": "Basic Location Targeting Example",
+    "Id": "005",
     "LeadTime": "T24H",
     "TargetTypes": [
         {
@@ -29,21 +30,6 @@
             "Maximum": 6,
             "Increment": 1,
             "Default": 6
-        },
-        {
-            "Name": "Inventory",
-            "Type": "Audience",
-            "DataSource": "Route",
-            "Target": "demographic",
-            "TargetValues": ["age>15 AND sex = 1 AND social_grade <=3 "],
-            "Selectable": false
-        },
-        {
-            "Name": "Inventory",
-            "Type": "Audience",
-            "DataSource": "Metrics",
-            "Target": "Impacts",
-            "Selectable": true
         },
         {
             "Name": "Inventory",

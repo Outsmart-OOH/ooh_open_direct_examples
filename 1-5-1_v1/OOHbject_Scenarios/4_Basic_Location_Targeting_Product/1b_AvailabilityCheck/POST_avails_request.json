@@ -59,8 +59,8 @@
                             "Type": "Frames",
                             "DataSource": "Metrics",
                             "Target": "FramesCount",
-                            "Minimum": 100,
-                            "Maximum": 200
+                            "Minimum": 1,
+                            "Maximum": 2
                         }
                     ]
                 },
