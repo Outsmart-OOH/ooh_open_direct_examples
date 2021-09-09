@@ -1,0 +1,162 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/products/products_avails_collection_response.json",
+    "ProductAvails": [
+        {
+            "Currency": "GBP",
+            "ProductId": "006",
+            "StartDate": "2021-11-01T00:00:00.000Z",
+            "EndDate": "2021-11-14T00:00:00.000Z",
+            "Price": 50000,
+            "Availability": [
+                {
+                    "Status": "Available",
+                    "Reason": "",
+                    "Comment": "",
+                    "Context": [],
+                    "Targeting": [
+                        {
+                            "$and": [
+                                {
+                                    "$and": [
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Frames",
+                                            "DataSource": "Space",
+                                            "Target": "tv_area",
+                                            "TargetValues": ["North East"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Audience",
+                                            "DataSource": "Route",
+                                            "Target": "demographic",
+                                            "TargetValues": ["sex=1 AND ageband >= 3 AND ageband <= 6"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Audience",
+                                            "DataSource": "Metrics",
+                                            "Target": "Impacts",
+                                            "TargetValues": ["19800"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Audience",
+                                            "DataSource": "Metrics",
+                                            "Target": "Reach",
+                                            "TargetValues": ["1980"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Audience",
+                                            "DataSource": "Metrics",
+                                            "Target": "Frequency",
+                                            "TargetValues": ["10"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Frames",
+                                            "DataSource": "Metrics",
+                                            "Target": "FramesCount",
+                                            "TargetValues": ["2"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Audience",
+                                            "DataSource": "Route",
+                                            "Target": "version",
+                                            "TargetValues": ["40"]
+                                        },
+                                        {
+                                            "Name":"Investment",
+                                            "Type": "Audience",
+                                            "DataSource": "GBP",
+                                            "Target": "Fixed",
+                                            "TargetValues": ["10000"]
+                                        },
+                                        {
+                                            "Name":"Investment",
+                                            "Type": "Audience",
+                                            "DataSource": "GBP",
+                                            "Target": "CPT",
+                                            "TargetValues":["8.90"]
+                                        }
+                                
+                                    ]
+                                },
+                                {
+                                    "$and": [
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Frames",
+                                            "DataSource": "Space",
+                                            "Target": "tv_area",
+                                            "TargetValues": ["London"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Audience",
+                                            "DataSource": "Route",
+                                            "Target": "demographic",
+                                            "TargetValues": ["sex=1 AND ageband >= 3 AND ageband <= 6"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Audience",
+                                            "DataSource": "Metrics",
+                                            "Target": "Impacts",
+                                            "TargetValues": ["55000"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Audience",
+                                            "DataSource": "Metrics",
+                                            "Target": "Reach",
+                                            "TargetValues": ["5500"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Audience",
+                                            "DataSource": "Metrics",
+                                            "Target": "Frequency",
+                                            "TargetValues": ["10"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Frames",
+                                            "DataSource": "Metrics",
+                                            "Target": "FramesCount",
+                                            "TargetValues": ["4"]
+                                        },
+                                        {
+                                            "Name": "Inventory",
+                                            "Type": "Audience",
+                                            "DataSource": "Route",
+                                            "Target": "version",
+                                            "TargetValues": ["40"]
+                                        },
+                                        {
+                                            "Name":"Investment",
+                                            "Type": "Audience",
+                                            "DataSource": "GBP",
+                                            "Target": "Fixed",
+                                            "TargetValues": ["40000"]
+                                        },
+                                        {
+                                            "Name":"Investment",
+                                            "Type": "Audience",
+                                            "DataSource": "GBP",
+                                            "Target": "CPT",
+                                            "TargetValues":["11.20"]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                        
+                    ]
+                }
+            ]
+        }
+    ]
+}

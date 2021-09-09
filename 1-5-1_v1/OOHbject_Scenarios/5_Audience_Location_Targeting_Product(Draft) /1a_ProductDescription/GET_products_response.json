@@ -1,8 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/products/products_response.json",
-    "Name": "Basic Location Targeting Example",
-    "Description": "Basic Location Targeting Example",
-    "Id": "005",
+    "Name": "Audience and Location Targeting Example",
+    "Description": "Audience and Location Targeting Example",
+    "Id": "006",
     "LeadTime": "T24H",
     "TargetTypes": [
         {
@@ -36,9 +36,13 @@
             "Type": "Audience",
             "DataSource": "Route",
             "Target": "demographic",
-            "TargetValues": [
-                "age>15 AND sex = 1 AND social_grade <=3 "
-            ],
+            "Selectable": true
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Audience",
+            "DataSource": "Route",
+            "Target": "version",
             "Selectable": false
         },
         {
@@ -48,6 +52,35 @@
             "Target": "Impacts",
             "Selectable": true
         },
+        {
+            "Name": "Inventory",
+            "Type": "Audience",
+            "DataSource": "Metrics",
+            "Target": "Reach",
+            "Selectable": false
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Audience",
+            "DataSource": "Metrics",
+            "Target": "Frequency",
+            "Selectable": false
+        },
+        {
+            "Name":"Investment",
+            "Type": "Audience",
+            "DataSource": "GBP",
+            "Target": "Fixed",
+            "Selectable": false
+        },
+        {
+            "Name":"Investment",
+            "Type": "Audience",
+            "DataSource": "GBP",
+            "Target": "CPT",
+            "Selectable": false
+        },
+
         {
             "Name": "Inventory",
             "Type": "Frames",
@@ -96,7 +129,7 @@
             "DataSource": "Space",
             "Target": "format",
             "TargetValues": [
-                "TCP"
+                "Roadside"
             ],
             "Selectable": false
         }
