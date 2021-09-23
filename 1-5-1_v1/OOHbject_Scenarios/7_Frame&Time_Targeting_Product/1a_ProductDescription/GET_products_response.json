@@ -1,0 +1,74 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/products/products_response.json",
+    "Name": "Frame Time Targeting Product ",
+    "Description": "Frame Time Targeting Product , 6 Frames, variable SoT,  error message can be returned if the size of the frame and time search exceeds a processing threshold of x time or y size",
+    "Id": "008",
+    "LeadTime": "T24H",
+    "TimeZone": "GMT",
+    "TargetTypes": [
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "frame_id",
+            "TargetValues": [
+                "1234931339",
+                "1235190735",
+                "1234931338",
+                "1235191547",
+                "1234931569",
+                "1235202465"
+            ],
+            "Selectable": true
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "frame_type",
+            "TargetValues": [
+                "digital moving"
+            ]
+        },
+        {
+            "Name": "Investment",
+            "Type": "Frames",
+            "DataSource": "GBP",
+            "Target": "Fixed",
+            "Selectable": false
+        },
+        {
+            "Name": "Delivery",
+            "Type": "Frames",
+            "DataSource": "ShareOfDisplay",
+            "Target": "ShareOfTime",
+            "Default": 20,
+            "Minimum": 5,
+            "Maximum": 100,
+            "Increment": 1,
+            "Selectable": true
+        },
+        {
+            "Name": "Delivery",
+            "Type": "Frames",
+            "DataSource": "Time",
+            "Target": "Hours",
+            "Selectable": true
+        }
+    ],
+    "AvailsGroupBy": [
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "frame_id"
+        },
+        {
+            "Name": "Delivery",
+            "Type": "Frames",
+            "DataSource": "Time",
+            "Target": "Hours"
+        }
+        
+    ]
+}

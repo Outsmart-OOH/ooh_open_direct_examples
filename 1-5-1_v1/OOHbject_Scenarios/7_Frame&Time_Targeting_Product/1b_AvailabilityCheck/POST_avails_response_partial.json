@@ -1,0 +1,92 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/products/products_avails_collection_response.json",
+    "ProductAvails": [
+        {
+            "Currency": "GBP",
+            "ProductId": "008",
+            "StartDate": "2021-11-01T00:00:00.000Z",
+            "EndDate": "2021-11-01T00:00:00.000Z",
+            "Availability": [
+                {
+                    "Status": "Available",
+                    "Reason": "",
+                    "Comment": "",
+                    "Context": [],
+                    "Targeting": [
+                        [
+                            {
+                                "Name": "Inventory",
+                                "Type": "Frames",
+                                "DataSource": "Space",
+                                "Target": "frame_id",
+                                "TargetValues": ["1234931339"]
+                            },
+                            {
+                                "Name": "Delivery",
+                                "Type": "Frames",
+                                "DataSource": "Time",
+                                "Target": "Hours",
+                                "TargetValues": ["6",
+                                    "7",
+                                    "8"]
+                            },
+                            {
+                                "Name": "Delivery",
+                                "Type": "Frames",
+                                "DataSource": "ShareOfDisplay",
+                                "Target": "ShareOfTime",
+                                "TargetValues": ["10"]
+                            },
+                            {
+                                "Name": "Investment",
+                                "Type": "Frames",
+                                "DataSource": "GBP",
+                                "Target": "Fixed",
+                                "TargetValues": ["60"]
+                            } 
+                        ]
+                    ]
+                },
+                {
+                    "Status": "Partially Available",
+                    "Reason": "",
+                    "Comment": "",
+                    "Context": [],
+                    "Targeting": [
+                        [
+                            {
+                                "Name": "Inventory",
+                                "Type": "Frames",
+                                "DataSource": "Space",
+                                "Target": "frame_id",
+                                "TargetValues": ["1235190735"]
+                            },
+                            {
+                                "Name": "Delivery",
+                                "Type": "Frames",
+                                "DataSource": "Time",
+                                "Target": "Hours",
+                                "TargetValues": ["9", "10","11"]
+                            },
+                            {
+                                "Name": "Delivery",
+                                "Type": "Frames",
+                                "DataSource": "ShareOfDisplay",
+                                "Target": "ShareOfTime",
+                                "TargetValues": ["15"]
+                            },
+                            {
+                                "Name": "Investment",
+                                "Type": "Frames",
+                                "DataSource": "GBP",
+                                "Target": "Fixed",
+                                "TargetValues": ["100"]
+                            } 
+                        ]
+                    ]
+                }
+            ],
+            "Price": 160
+        }
+    ]
+}
