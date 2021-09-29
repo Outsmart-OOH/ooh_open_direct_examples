@@ -58,9 +58,7 @@
             "Type": "Frames",
             "DataSource": "ShareOfDisplay",
             "Target": "ShareOfTime",
-            "TargetValues": [
-                "20"
-            ],
+            "Default": 20,
             "Selectable": false
         },
         {
@@ -68,9 +66,7 @@
             "Type": "Frames",
             "DataSource": "ShareOfDisplay",
             "Target": "Spot",
-            "TargetValues": [
-                "10"
-            ],
+            "Default": 10,
             "Selectable": false
         },
         {
