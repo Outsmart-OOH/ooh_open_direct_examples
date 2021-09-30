@@ -1,0 +1,149 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/lines/lines_response.json",
+    "OrderId": "1235872",
+    "Id": "345234",
+    "BookingStatus": "Draft",
+    "ProductId": "009",
+    "StartDate": "2021-11-01T00:00:00.000Z",
+    "EndDate": "2021-11-14T00:00:00.000Z",
+    "Cost": 1600000,
+    "Name": "National 6 Campaign",
+    "OOHProviderData": {
+        "PoNumber": "88874"
+    },
+    "Targeting": [
+        {
+            "$and": [
+                {
+                    "$and": [
+                        {
+                            "Name": "Inventory",
+                            "Type": "Frames",
+                            "DataSource": "Space",
+                            "Target": "tv_area",
+                            "TargetValues": [
+                                "Border"
+                            ]
+                        },
+                        {
+                            "Name": "Inventory",
+                            "Type": "Frames",
+                            "DataSource": "Metrics",
+                            "Target": "FramesCount",
+                            "TargetValues": [
+                                "2"
+                            ]
+                        },
+                        {
+                            "Name": "Inventory",
+                            "Type": "Audience",
+                            "DataSource": "Metrics",
+                            "Target": "Cover",
+                            "TargetValues": [
+                                "0.11"
+                            ]
+                        },
+                        {
+                            "Name": "Inventory",
+                            "Type": "Audience",
+                            "DataSource": "Metrics",
+                            "Target": "Frequency",
+                            "TargetValues": [
+                                "3.09"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "$and": [
+                        {
+                            "Name": "Inventory",
+                            "Type": "Frames",
+                            "DataSource": "Space",
+                            "Target": "tv_area",
+                            "TargetValues": [
+                                "Central Scotland"
+                            ]
+                        },
+                        {
+                            "Name": "Inventory",
+                            "Type": "Frames",
+                            "DataSource": "Metrics",
+                            "Target": "FramesCount",
+                            "TargetValues": [
+                                "95"
+                            ]
+                        },
+                        {
+                            "Name": "Inventory",
+                            "Type": "Audience",
+                            "DataSource": "Metrics",
+                            "Target": "Cover",
+                            "TargetValues": [
+                                "3.54"
+                            ]
+                        },
+                        {
+                            "Name": "Inventory",
+                            "Type": "Audience",
+                            "DataSource": "Metrics",
+                            "Target": "Frequency",
+                            "TargetValues": [
+                                "4.47"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "$and": [
+                        {
+                            "Name": "Inventory",
+                            "Type": "Frames",
+                            "DataSource": "Space",
+                            "Target": "tv_area",
+                            "TargetValues": [
+                                "etc"
+                            ]
+                        },
+                        {
+                            "Name": "Inventory",
+                            "Type": "Frames",
+                            "DataSource": "Metrics",
+                            "Target": "FramesCount",
+                            "TargetValues": [
+                                "etc"
+                            ]
+                        },
+                        {
+                            "Name": "Inventory",
+                            "Type": "Audience",
+                            "DataSource": "Metrics",
+                            "Target": "Cover",
+                            "TargetValues": [
+                                "etc"
+                            ]
+                        },
+                        {
+                            "Name": "Inventory",
+                            "Type": "Audience",
+                            "DataSource": "Metrics",
+                            "Target": "Frequency",
+                            "TargetValues": [
+                                "etc"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Availability": [
+        {
+            "Status": "Available",
+            "Reason": "",
+            "Comment": "",
+            "Context": [],
+            "Targeting": []
+        }
+    ]
+}

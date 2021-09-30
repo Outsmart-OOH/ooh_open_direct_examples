@@ -1,0 +1,94 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/products/products_response.json",
+    "Name": "Basic Location Targeting Example",
+    "Description": "National 6 Sheets",
+    "Id": "009",
+    "LeadTime": "T24H",
+    "TargetTypes": [
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "frame_id",
+            "Selectable": false
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Metrics",
+            "Target": "FramesCount",
+            "Selectable": true,
+            "Minimum": 500,
+            "Maximum": 20000,
+            "Increment": 500,
+            "Default": 1000
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "tv_area",
+            "TargetValues": [
+                "Border",
+                "Central Scotland",
+                "East Of England",
+                "London",
+                "Midlands",
+                "North East",
+                "North Scotland",
+                "North West",
+                "South and South-East",
+                "South West",
+                "Wales",
+                "West",
+                "Yorkshire"
+            ],
+            "Selectable": true
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "format",
+            "TargetValues": [
+                "6 Sheets"
+            ],
+            "Selectable": false
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Audience",
+            "DataSource": "Metrics",
+            "Target": "Cover",
+            "Selectable": true,
+            "Minimum": 1000000,
+            "Maximum": 40000000
+
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Audience",
+            "DataSource": "Metrics",
+            "Target": "Frequency",
+            "Selectable": true,
+            "Minimum": 2,
+            "Maximum": 20
+        }
+
+    ],
+    "AvailsGroupBy": [
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Metrics",
+            "Target": "FramesCount"
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "tv_area"
+        }
+    ],
+    "TimeZone": "GMT"
+}

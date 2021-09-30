@@ -1,0 +1,181 @@
+{
+    "Errors": [
+    {
+        "ErrorCode": "Draft2Option",
+        "Message": "Orderline can not be completed",
+        "Availability": [
+            {
+                "Status": "Unavailable",
+                "Reason": "",
+                "Code": "",
+                "Comment": "Not enough frames available",
+                "Context": [
+                    {
+                        "Name": "Inventory",
+                        "Type": "Frames",
+                        "DataSource": "Space",
+                        "Target": "tv_area",
+                        "TargetValues": [
+                            "Central Scotland"
+                        ]
+                    },
+                    {
+                        "Name": "Inventory",
+                        "Type": "Frames",
+                        "DataSource": "Metrics",
+                        "Target": "FramesCount",
+                        "TargetValues": [
+                            "94"
+                        ]
+                    },
+                    {
+                        "Name": "Inventory",
+                        "Type": "Audience",
+                        "DataSource": "Metrics",
+                        "Target": "Cover",
+                        "TargetValues": [
+                            "3.54"
+                        ]
+                    },
+                    {
+                        "Name": "Inventory",
+                        "Type": "Audience",
+                        "DataSource": "Metrics",
+                        "Target": "Frequency",
+                        "TargetValues": [
+                            "4.47"
+                        ]
+                    }
+                ],
+                "Targeting": [
+                    {
+                        "$and": [
+                            {
+                                "$and": [
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Frames",
+                                        "DataSource": "Space",
+                                        "Target": "tv_area",
+                                        "TargetValues": [
+                                            "Border"
+                                        ]
+                                    },
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Frames",
+                                        "DataSource": "Metrics",
+                                        "Target": "FramesCount",
+                                        "TargetValues": [
+                                            "2"
+                                        ]
+                                    },
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Audience",
+                                        "DataSource": "Metrics",
+                                        "Target": "Cover",
+                                        "TargetValues": [
+                                            "0.11"
+                                        ]
+                                    },
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Audience",
+                                        "DataSource": "Metrics",
+                                        "Target": "Frequency",
+                                        "TargetValues": [
+                                            "3.09"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$and": [
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Frames",
+                                        "DataSource": "Space",
+                                        "Target": "tv_area",
+                                        "TargetValues": [
+                                            "Central Scotland"
+                                        ]
+                                    },
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Frames",
+                                        "DataSource": "Metrics",
+                                        "Target": "FramesCount",
+                                        "TargetValues": [
+                                            "95"
+                                        ]
+                                    },
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Audience",
+                                        "DataSource": "Metrics",
+                                        "Target": "Cover",
+                                        "TargetValues": [
+                                            "3.54"
+                                        ]
+                                    },
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Audience",
+                                        "DataSource": "Metrics",
+                                        "Target": "Frequency",
+                                        "TargetValues": [
+                                            "4.47"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$and": [
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Frames",
+                                        "DataSource": "Space",
+                                        "Target": "tv_area",
+                                        "TargetValues": [
+                                            "etc"
+                                        ]
+                                    },
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Frames",
+                                        "DataSource": "Metrics",
+                                        "Target": "FramesCount",
+                                        "TargetValues": [
+                                            "etc"
+                                        ]
+                                    },
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Audience",
+                                        "DataSource": "Metrics",
+                                        "Target": "Cover",
+                                        "TargetValues": [
+                                            "etc"
+                                        ]
+                                    },
+                                    {
+                                        "Name": "Inventory",
+                                        "Type": "Audience",
+                                        "DataSource": "Metrics",
+                                        "Target": "Frequency",
+                                        "TargetValues": [
+                                            "etc"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Link": "https://publisher.com/opendirect/help/SelectFrames.aspx"
+    }
+]
+}
