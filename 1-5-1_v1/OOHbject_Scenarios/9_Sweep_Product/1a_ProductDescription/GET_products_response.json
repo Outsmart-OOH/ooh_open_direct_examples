@@ -1,0 +1,68 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/products/products_response.json",
+    "Name": "Broken Biscuit Product",
+    "Description": "Commercialize Remaining Frames and Time Wrapped up in super deal",
+    "Id": "010",
+    "LeadTime": "T24H",
+    "TargetTypes": [
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "frame_id",
+            "Selectable": false
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "format",
+            "TargetValues": ["Digital 6"]
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Metrics",
+            "Target": "FramesCount",
+            "Selectable": true,
+            "Minimum": 500,
+            "Maximum": 1000,
+            "Increment": 50,
+            "Default": 500
+        },
+        {
+            "Name": "Delivery",
+            "Type": "Frames",
+            "DataSource": "ShareOfDisplay",
+            "Target": "ShareOfTime",
+            "Minimum": 5,
+            "Maximum": 100,
+            "Increment": 1,
+            "Selectable": false
+        },
+        {
+            "Name": "Distribution",
+            "Type": "Frames",
+            "DataSource": "ShareOfDisplay",
+            "Target": "Daypart",
+            "Selectable": false
+        },
+        {
+            "Name": "Delivery",
+            "Type": "Frames",
+            "DataSource": "ShareOfDisplay",
+            "Target": "Spot",
+            "Default": 10,
+            "Selectable": false
+        }
+    ],
+    "AvailsGroupBy": [
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "frame_id"
+        }
+    ],
+    "TimeZone": "GMT"
+}
