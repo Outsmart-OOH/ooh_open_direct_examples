@@ -1,0 +1,44 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/lines/lines_response.json",
+    "OrderId": "1235872",
+    "Id": "345234",
+    "BookingStatus": "Draft",
+    "ProductId": "010",
+    "StartDate": "2021-11-01T00:00:00.000Z",
+    "EndDate": "2021-11-14T00:00:00.000Z",
+    "Cost": 6900,
+    "Name": "Family Circle Fireworks Special",
+    "OOHProviderData": {
+        "PoNumber": "88874"
+    },
+    "Targeting": [
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Metrics",
+            "Target": "FramesCount",
+            "TargetValues": ["800"]
+            
+        }
+        
+    ],
+    "Availability": [
+        {
+            "Status": "Partially Available",
+            "Reason": "",
+            "Comment": "",
+            "Context": [],
+            "Targeting": [
+                {
+                    "Name": "Inventory",
+                    "Type": "Frames",
+                    "DataSource": "Metrics",
+                    "Target": "FramesCount",
+                    "TargetValues": ["750"]
+                    
+                }
+
+            ]
+        }
+    ]
+}
