@@ -1,0 +1,42 @@
+{
+    "Errors": [
+    {
+        "ErrorCode": "Not Available",
+        "Message": "Inventory not available",
+        "Availability": [
+            {
+                "Status": "",
+                "Reason": "",
+                "Code":"",
+                "Comment":"",
+                "Context":[
+                 ],
+                "Targeting": [
+                    {
+                        "Name": "Inventory",
+                        "Type": "Frames",
+                        "DataSource": "Space",
+                        "Target": "tv_area",
+                        "TargetValues": ["North East","London"]
+                    },
+                    {
+                        "Name":"Investment",
+                        "Type": "Audience",
+                        "DataSource": "GBP",
+                        "Target": "Fixed",
+                        "TargetValues": ["70000"]
+                    },
+                    {
+                        "Name": "Inventory",
+                        "Type": "Audience",
+                        "DataSource": "Route",
+                        "Target": "demographic",
+                        "TargetValues": ["sex = 1 AND social_grade <= 3"]
+                    }
+                ]
+            }
+        ],
+        "Link": ""
+    }
+]
+}

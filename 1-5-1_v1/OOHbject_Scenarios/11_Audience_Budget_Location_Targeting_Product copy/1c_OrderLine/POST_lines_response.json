@@ -1,0 +1,47 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/lines/lines_response.json",
+    "OrderId": "1235872",
+    "Id": "345234",
+    "BookingStatus": "Draft",
+    "ProductId": "012",
+    "StartDate": "2021-11-01T00:00:00.000Z",
+    "EndDate": "2021-11-14T00:00:00.000Z",
+    "Cost": 70000,
+    "Name": "The Audience Location Buy",
+    "OOHProviderData": {
+        "PoNumber": "88890"
+    },
+    "Targeting": [
+        {
+            "Name": "Inventory",
+            "Type": "Frames",
+            "DataSource": "Space",
+            "Target": "tv_area",
+            "TargetValues": ["London"]
+        },
+        {
+            "Name":"Investment",
+            "Type": "Audience",
+            "DataSource": "GBP",
+            "Target": "Fixed",
+            "TargetValues": ["70000"]
+        },
+        {
+            "Name": "Inventory",
+            "Type": "Audience",
+            "DataSource": "Route",
+            "Target": "demographic",
+            "TargetValues": ["sex = 1 AND social_grade <= 3"]
+        }
+        
+    ],
+    "Availability": [
+        {
+            "Status": "Available",
+            "Reason": "",
+            "Comment": "",
+            "Context": [],
+            "Targeting": []
+        }
+    ]
+}

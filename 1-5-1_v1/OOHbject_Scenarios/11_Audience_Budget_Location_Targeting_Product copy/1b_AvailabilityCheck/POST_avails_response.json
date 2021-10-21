@@ -1,0 +1,139 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/uris/products/products_avails_collection_response.json",
+    "ProductAvails": [
+        {
+            "Currency": "GBP",
+            "ProductId": "012",
+            "StartDate": "2021-11-01T00:00:00.000Z",
+            "EndDate": "2021-11-14T00:00:00.000Z",
+            "Price": 70000,
+            "Availability": [
+                {
+                    "Status": "Available",
+                    "Reason": "",
+                    "Comment": "",
+                    "Context": [],
+                    "Targeting": [
+                        [
+                            {
+                                "Name": "Inventory",
+                                "Type": "Frames",
+                                "DataSource": "Space",
+                                "Target": "tv_area",
+                                "TargetValues": ["North East"]
+                            },
+                            {
+                                "Name": "Inventory",
+                                "Type": "Frames",
+                                "DataSource": "Metrics",
+                                "Target": "FramesCount",
+                                "TargetValues": ["3"]
+                            },
+                            {
+                                "Name": "Inventory",
+                                "Type": "Audience",
+                                "DataSource": "Route",
+                                "Target": "demographic",
+                                "TargetValues": ["sex = 1 AND social_grade <= 3"]
+                            },
+                            {
+                                "Name": "Inventory",
+                                "Type": "Audience",
+                                "DataSource": "Metrics",
+                                "Target": "Impacts",
+                                "TargetValues": ["3000000"]
+                            },
+                            {
+                                "Name": "Inventory",
+                                "Type": "Audience",
+                                "DataSource": "Metrics",
+                                "Target": "Reach",
+                                "TargetValues": ["300000"]
+                            },
+                            {
+                                "Name": "Inventory",
+                                "Type": "Audience",
+                                "DataSource": "Metrics",
+                                "Target": "Frequency",
+                                "TargetValues": ["10"]
+                            },
+                            {
+                                "Name":"Investment",
+                                "Type": "Audience",
+                                "DataSource": "GBP",
+                                "Target": "Fixed",
+                                "TargetValues": ["30000"]
+                            },
+                            {
+                                "Name":"Investment",
+                                "Type": "Audience",
+                                "DataSource": "GBP",
+                                "Target": "CPT",
+                                "TargetValues": ["10"]
+                            }
+                        ],
+                        [
+                            {
+                                "Name": "Inventory",
+                                "Type": "Frames",
+                                "DataSource": "Space",
+                                "Target": "tv_area",
+                                "TargetValues": ["London"]
+                            },
+                            {
+                                "Name": "Inventory",
+                                "Type": "Frames",
+                                "DataSource": "Metrics",
+                                "Target": "FramesCount",
+                                "TargetValues": ["4"]
+                            },
+                            {
+                                "Name": "Inventory",
+                                "Type": "Audience",
+                                "DataSource": "Route",
+                                "Target": "demographic",
+                                "TargetValues": ["sex = 1 AND social_grade <= 3"]
+                            },
+                            {
+                                "Name": "Inventory",
+                                "Type": "Audience",
+                                "DataSource": "Metrics",
+                                "Target": "Impacts",
+                                "TargetValues": ["4000000"]
+                            },
+                            {
+                                "Name": "Inventory",
+                                "Type": "Audience",
+                                "DataSource": "Metrics",
+                                "Target": "Reach",
+                                "TargetValues": ["400000"]
+                            },
+                            {
+                                "Name": "Inventory",
+                                "Type": "Audience",
+                                "DataSource": "Metrics",
+                                "Target": "Frequency",
+                                "TargetValues": ["10"]
+                            },
+                            {
+                                "Name":"Investment",
+                                "Type": "Audience",
+                                "DataSource": "GBP",
+                                "Target": "Fixed",
+                                "TargetValues": ["40000"]
+                            },
+                            {
+                                "Name":"Investment",
+                                "Type": "Audience",
+                                "DataSource": "GBP",
+                                "Target": "CPT",
+                                "TargetValues": ["10"]
+                            }
+                        ]
+                        
+                    ]
+                }
+            ]
+        }
+    ]
+}
