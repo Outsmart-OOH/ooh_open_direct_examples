@@ -10,5 +10,10 @@
     "OOHProviderData": {
         "PoNumber": "88873"
     },
-    "Targeting": []
+    "Targeting": [],
+    "ext":{
+        "OOH":{
+            "upsitelocktime":"2021-10-18T00:00:00.000Z"
+        }
+    }
 }
