@@ -9,8 +9,8 @@
             "Link": ""
         },
         {
-            "ErrorCode": "",
-            "ErrorMessage": "",
+            "ErrorCode": "SyntaxError",
+            "ErrorMessage": "Line 132 expect Number value",
             "Availabiliy": [],
             "Link": ""
         }
