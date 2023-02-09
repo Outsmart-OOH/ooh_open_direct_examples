@@ -4,13 +4,13 @@
         {
             "ErrorCode": "SyntaxError",
             "Message": "Line 36 do not recognise value 'SPCE'",
-            "Availability": [],
+            "Availability": {},
             "Link": ""
         },
         {
             "ErrorCode": "SyntaxError",
             "ErrorMessage": "Line 132 expect Number value",
-            "Availability": [],
+            "Availability": {},
             "Link": ""
         }
     ]

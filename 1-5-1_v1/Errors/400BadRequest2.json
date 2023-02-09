@@ -4,13 +4,13 @@
         {
             "ErrorCode": "SyntaxError",
             "ErrorMessage": "Line 324 expected ','",
-            "Availabiliy": [],
+            "Availability": {},
             "Link": ""
         },
         {
             "ErrorCode": "",
             "ErrorMessage": "",
-            "Availability": [],
+            "Availability": {},
             "Link": ""
         }
     ]
