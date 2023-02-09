@@ -1,40 +1,12 @@
 {
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/general/error.json",
     "Errors": [
         {
-            "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/general/error.json",
-            "ErrorCode": "Duplication101",
-            "Message": "Frame cant be selected",
-            "Availability": [
-                {
-                    "Status": "Unavailable",
-                    "Reason": "Duplication",
-                    "Code": "DUP-90",
-                    "Comment": "Targeted frame duplicates with another frame",
-                    "Context": [
-                        {
-                            "Name": "Inventory",
-                            "Type": "Frames",
-                            "DataSource": "Space",
-                            "Target": "frame_id",
-                            "TargetValues": [
-                                "1235191234"
-                            ]
-                        }
-                    ],
-                    "Targeting": [
-                        {
-                            "Name": "Inventory",
-                            "Type": "Frames",
-                            "DataSource": "Space",
-                            "Target": "frame_id",
-                            "TargetValues": [
-                                "1235192345"
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "Link": "https://publisher.com/opendirect/help/SelectFrames.aspx"
+            
+            "ErrorCode": "SyntaxError",
+            "Message": "Line 36 do not recognise value 'SPCE'",
+            "Availability": [],
+            "Link": ""
         },
         {
             "ErrorCode": "",
