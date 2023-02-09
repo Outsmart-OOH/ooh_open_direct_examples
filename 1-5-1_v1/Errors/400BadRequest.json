@@ -2,7 +2,6 @@
     "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/general/error.json",
     "Errors": [
         {
-            
             "ErrorCode": "SyntaxError",
             "Message": "Line 36 do not recognise value 'SPCE'",
             "Availability": [],

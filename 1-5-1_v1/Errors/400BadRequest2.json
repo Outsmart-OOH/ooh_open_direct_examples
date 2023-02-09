@@ -1,0 +1,11 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/ooh_open_direct/master/schema/v1/general/error.json",
+    "Errors": [
+        {
+            "ErrorCode": "",
+            "ErrorMessage": "",
+            "Availability": [],
+            "Link": ""
+        }
+    ]
+}
