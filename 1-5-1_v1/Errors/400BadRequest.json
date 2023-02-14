@@ -3,12 +3,12 @@
     "Errors": [
         {
             "Field": "AdvertiserID",
-            "ErrorMessage": "Not recognised",
+            "ErrorMessage": "Advertiser ID Not recognised",
             "Availability": [],
             "Link": ""
         },
         {
-            "ErrorCode": "BuyerID",
+            "Field": "BuyerID",
             "ErrorMessage": "Missing",
             "Availability": [],
             "Link": ""
