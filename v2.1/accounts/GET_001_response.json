@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/accounts/GET_response.json",
+    "accounts": [
+        {
+            "advertiserid": "1234987",
+            "buyerid": "1234987",
+            "name": "Brand B",
+            "status": "Pending",
+            "id": "9876542",
+            "ext": {
+                "key": "value"
+            }
+        },
+        {
+            "advertiserid": "1234987",
+            "buyerid": "34587",
+            "intermediaryid": "9876543",
+            "name": "Brand A",
+            "status": "Approved",
+            "id": "23873345"
+        }
+    ],
+    "paging": {
+        "count": 2,
+        "offset": 0,
+        "totalrecords": 2
+    }
+}

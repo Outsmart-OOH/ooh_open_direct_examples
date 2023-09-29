@@ -1,0 +1,85 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/advertiserbrands/GET_response.json",
+    "advertiserbrands": [
+        {
+            "id": "117311123",
+            "name": "Marmite",
+            "organizationid": "345",
+            "eids": [
+                {
+                    "source": "https://oohspace.co.uk",
+                    "name": "SPACE",
+                    "tpids": [
+                        {
+                            "id": "14789"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1174",
+            "name": "PGTips",
+            "organizationid": "345",
+            "eids": [
+                {
+                    "source": "https://oohspace.co.uk",
+                    "name": "SPACE",
+                    "tpids": [
+                        {
+                            "id": "567"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1175",
+            "name": "Lynx",
+            "organizationid": "345",
+            "eids": [
+                {
+                    "source": "https://oohspace.co.uk",
+                    "name": "SPACE",
+                    "tpids": [
+                        {
+                            "id": "8890"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1176",
+            "name": "Walls",
+            "organizationid": "345",
+            "eids": [
+                {
+                    "source": "https://oohspace.co.uk",
+                    "name": "SPACE",
+                    "tpids": [
+                        {
+                            "id": "3562"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1234",
+            "name": "Walkers",
+            "organizationid": "889",
+            "eids": [
+                {
+                    "source": "https://oohspace.co.uk",
+                    "name": "SPACE",
+                    "tpids": [
+                        {
+                            "id": "84585608"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

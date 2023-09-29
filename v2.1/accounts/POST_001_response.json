@@ -1,0 +1,9 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/accounts/POST_response.json",
+    "advertiserid": "1234987",
+    "buyerid": "34587",
+    "intermediaryid": "9876543",
+    "name": "Brand A",
+    "status": "Approved",
+    "id": "23873345"
+}

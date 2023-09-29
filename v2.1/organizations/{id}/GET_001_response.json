@@ -1,0 +1,52 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/organizations/{id}/GET_response.json",
+    "address": {
+        "addressline1": "1234 Tiger Blvd",
+        "city": "Redmond",
+        "country": "US",
+        "postalcode": "98123",
+        "state": "WA"
+    },
+    "contacts": [
+        {
+            "address": {
+                "addressline1": "1234 Tiger Blvd",
+                "city": "Redmond",
+                "country": "US",
+                "postalcode": "98123",
+                "state": "WA"
+            },
+            "email": "jsilver@contoso.com",
+            "honorific": "Ms",
+            "fax": "2065551212",
+            "firstname": "Janet",
+            "lastname": "Silver",
+            "phone": "2065550101",
+            "title": "Comptroller",
+            "type": "Billing"
+        }
+    ],
+    "fax": "2065551212",
+    "id": "12345678",
+    "cat": [
+        599,
+        602,
+        611
+    ],
+    "name": "Contoso",
+    "phone": "2065550100",
+    "status": "Approved",
+    "url": "http://contoso.com",
+    "organizationtype": "advertiser",
+    "eids": [
+        {
+            "source": "https://oohspace.co.uk",
+            "name": "SPACE",
+            "tpids": [
+                {
+                    "id": "14789"
+                }
+            ]
+        }
+    ]
+}

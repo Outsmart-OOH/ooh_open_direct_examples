@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/advertiserbrands/{id}/GET_response.json",
+    "id": "1173",
+    "name": "Marmite",
+    "organizationid": "345",
+    "eids": [
+        {
+            "source": "https://oohspace.co.uk",
+            "name": "SPACE",
+            "tpids": [
+                {
+                    "id": "14789"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/advertiserbrands/POST_response.json",
+    "id": "1234",
+    "name": "Walkers",
+    "organizationid": "889",
+    "eids": [
+        {
+            "source": "https://oohspace.co.uk",
+            "name": "SPACE",
+            "tpids": [
+                {
+                    "id": "84585608"
+                }
+            ]
+        }
+    ]
+}
