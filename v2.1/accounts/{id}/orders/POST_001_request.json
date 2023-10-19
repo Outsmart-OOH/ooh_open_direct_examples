@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/accounts/%7Bid%7D/orders/POST_request.json",
+    "accountid": "23873345",
+    "publisherid": "7987654",
+    "brand": "Four Wakes",
+    "advertiserbrandid": "12345678",
+    "budget": 50000,
+    "currency": "USD",
+    "enddate": "2014-12-24T18:00:00.000Z",
+    "name": "My Order",
+    "startdate": "2014-11-24T06:00:00.000Z"
+}

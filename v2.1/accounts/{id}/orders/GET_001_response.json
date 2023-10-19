@@ -1,0 +1,41 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/accounts/%7Bid%7D/orders/GET_response.json",
+    "orders": [
+        {
+            "id": "1235872",
+            "accountid": "23873345",
+            "publisherid": "7987654",
+            "brand": "Four Wakes",
+            "advertiserbrandid": "12345678",
+            "budget": 50000,
+            "currency": "USD",
+            "enddate": "2014-12-24T18:00:00.000Z",
+            "name": "My Order",
+            "orderstatus": "PENDING",
+            "preferredbillingmethod": "Electronic",
+            "startdate": "2014-11-24T06:00:00.000Z"
+        },
+        {
+            "id": "1235873",
+            "accountid": "23873345",
+            "publisherid": "7987654",
+            "brand": "Four Candles",
+            "advertiserbrandid": "12345678",
+            "budget": 100000,
+            "currency": "USD",
+            "enddate": "2014-12-24T18:00:00.000Z",
+            "name": "Two Ronnies Trading",
+            "orderstatus": "APPROVED",
+            "preferredbillingmethod": "Electronic",
+            "startdate": "2014-11-24T06:00:00.000Z",
+            "providerdata": {
+                "campaignid": "A00123",
+                "campaignname": "Goodnight From Him",
+                "ponumber": "PO80X",
+                "salesorderreference": "SO678",
+                "barterorganisationid": "BO808",
+                "other": {}
+            }
+        }
+    ]
+}
