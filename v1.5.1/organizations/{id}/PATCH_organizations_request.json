@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v1.5.1/uris/organizations/organizations_request.json",
+  "Id": "12345678",
+  "Contacts": [
+    {
+      "Email": "bnicks@contoso.com",
+      "Honorific": "Mr",
+      "Fax": "2065551212",
+      "FirstName": "Bill",
+      "LastName": "Nicks",
+      "Phone": "2065550105",
+      "Title": "Comptroller",
+      "Type": "Billing"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v1.5.1/uris/products/products_search_request.json",
+    "Targeting": [
+        {
+            "$and": [
+                {
+                    "Name": "Inventory",
+                    "Type": "Frames",
+                    "DataSource": "Space",
+                    "Target": "frame_type",
+                    "TargetValues": [
+                        "digital moving image"
+                    ]
+                },
+                {
+                    "Name": "Inventory",
+                    "Type": "Frames",
+                    "DataSource": "Space",
+                    "Target": "format",
+                    "TargetValues": [
+                        "6 sheets"
+                    ]
+                },
+                {
+                    "Name": "Inventory",
+                    "Type": "Frames",
+                    "DataSource": "Space",
+                    "Target": "environment",
+                    "TargetValues": [
+                        "Rail Stations"
+                    ]
+                },
+                {
+                    "Name": "Delivery",
+                    "Type": "Frames",
+                    "DataSource": "ShareOfDisplay",
+                    "Target": "Spot",
+                    "TargetValues": ["5"]
+                }
+            ]
+        }
+    ]
+}

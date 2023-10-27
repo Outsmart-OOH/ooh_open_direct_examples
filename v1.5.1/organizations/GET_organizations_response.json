@@ -1,0 +1,94 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v1.5.1/uris/organizations/organizations_collection_response.json",
+    "Organizations": [
+        {
+            "Address": {
+                "AddressLine1": "1234 Tiger Blvd",
+                "City": "Redmond",
+                "Country": "US",
+                "PostalCode": "98123",
+                "State": "WA"
+            },
+            "Contacts": [
+                {
+                    "Address": {
+                        "AddressLine1": "1234 Tiger Blvd",
+                        "City": "Redmond",
+                        "Country": "US",
+                        "PostalCode": "98123",
+                        "State": "WA"
+                    },
+                    "Email": "jsilver@contoso.com",
+                    "Honorific": "Ms",
+                    "Fax": "2065551212",
+                    "FirstName": "Janet",
+                    "LastName": "Silver",
+                    "Phone": "2065550101",
+                    "Title": "Comptroller",
+                    "Type": "Billing"
+                }
+            ],
+            "Fax": "2065551212",
+            "Id": "12345678",
+            "Name": "Contoso",
+            "AdvertiserBrands": [],
+            "OrganizationType": "Specialist",
+            "Phone": "2065550100",
+            "Status": "Approved",
+            "Url": "http://contoso.com"
+        },
+        {
+            "Address": {
+                "AddressLine1": "221B Baker Street",
+                "City": "London",
+                "Country": "UK",
+                "PostalCode": "NW1 6XE",
+                "State": "NULL"
+            },
+            "Contacts": [
+                {
+                    "Address": {
+                        "AddressLine1": "221B Baker Street",
+                        "City": "London",
+                        "Country": "UK",
+                        "PostalCode": "NW1 6XE",
+                        "State": "NULL"
+                    },
+                    "Email": "watson@idealholmes",
+                    "Honorific": "Mr",
+                    "Fax": "2065551212",
+                    "FirstName": "John",
+                    "LastName": "Watson",
+                    "Phone": "999-999-999",
+                    "Title": "Dr",
+                    "Type": "Billing"
+                }
+            ],
+            "Fax": "111111111",
+            "Id": "12345677",
+            "Name": "IdealHolmes",
+            "AdvertiserBrands": [
+                {
+                    "Id": "123456",
+                    "Name": "Manic Miner",
+                    "OrganizationId": "Bug-Byte"
+                }
+            ],
+            "OrganizationType": "Advertiser",
+            "Phone": "2065550100",
+            "Status": "Approved",
+            "Url": "http://www.idealholmes.com",
+            "Eids": [
+                {
+                    "source": "https://oohspace.co.uk",
+                    "name": "SPACE",
+                    "tpids": [
+                        {
+                            "id": "1287659"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
