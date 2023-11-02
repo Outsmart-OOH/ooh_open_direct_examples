@@ -9,7 +9,7 @@
                 {
                     "source": "https://oohspace.co.uk",
                     "name": "SPACE",
-                    "tpids": [
+                    "uids": [
                         {
                             "id": "14789"
                         }
@@ -25,7 +25,7 @@
                 {
                     "source": "https://oohspace.co.uk",
                     "name": "SPACE",
-                    "tpids": [
+                    "uids": [
                         {
                             "id": "567"
                         }
@@ -41,7 +41,7 @@
                 {
                     "source": "https://oohspace.co.uk",
                     "name": "SPACE",
-                    "tpids": [
+                    "uids": [
                         {
                             "id": "8890"
                         }
@@ -57,7 +57,7 @@
                 {
                     "source": "https://oohspace.co.uk",
                     "name": "SPACE",
-                    "tpids": [
+                    "uids": [
                         {
                             "id": "3562"
                         }
@@ -73,7 +73,7 @@
                 {
                     "source": "https://oohspace.co.uk",
                     "name": "SPACE",
-                    "tpids": [
+                    "uids": [
                         {
                             "id": "84585608"
                         }
