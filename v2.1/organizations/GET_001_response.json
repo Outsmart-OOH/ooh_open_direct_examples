@@ -44,7 +44,7 @@
                 {
                     "source": "https://oohspace.co.uk",
                     "name": "SPACE",
-                    "tpids": [
+                    "uids": [
                         {
                             "id": "14789"
                         }
