@@ -7,7 +7,7 @@
         {
             "source": "https://oohspace.co.uk",
             "name": "SPACE",
-            "tpids": [
+            "uids": [
                 {
                     "id": "84585608"
                 }
