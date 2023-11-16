@@ -1,0 +1,57 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/products/{id}/GET_response.json",
+    "id": "456366",
+    "publisherid": "7987654",
+    "name": "Unique Product Name",
+    "description": "Mrec and Skyscraper combination",
+    "producttags": "Foo Bar Zoo",
+    "ratetype": "CPM",
+    "currency": "USD",
+    "baseprice": 25.00,
+    "deliverytype": "guaranteed",
+    "domain": "mydomain.com",
+    "estdailyavails": "Hundreds of Thousands",
+    "icon": "http://<domain>/<path>/icon.jpg",
+    "languages": [
+        "EN"
+    ],
+    "minspend": 1000.00,
+    "adunit": [
+        {
+            "id": "1",
+            "name": "MRec",
+            "spec": {
+                "display": {
+                    "pos": 6,
+                    "w": 300,
+                    "h": 250
+                }
+            }
+        },
+        {
+            "id": "2",
+            "name": "Skyscraper",
+            "spec": {
+                "display": {
+                    "pos": 6,
+                    "w": 160,
+                    "h": 600
+                }
+            }
+        }
+    ],
+    "alladunits": 1,
+    "context": {
+        "regs": {
+            "gdpr": 0,
+            "coppa": 0
+        },
+        "site": {
+            "name": "Awesome Example Site",
+            "domain": "examplesitedomain.com",
+            "amp": 0
+        }
+    },
+    "tz": "Eastern Standard Time",
+    "url": "http://<domain>/<path>/creativespec.aspx"
+}
