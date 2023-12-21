@@ -1,0 +1,97 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/products/avails/POST_request.json",
+    "accountid": "23873345",
+    "enddate": "2014-12-10T18:00:00.000Z",
+    "productids": [
+        "456367"
+    ],
+    "startdate": "2014-12-05T06:00:00.000Z",
+    "availabilityfields": [
+        {
+            "name": "Inventory",
+            "type": "Frames",
+            "datasource": "SPACE",
+            "target": "frame_id"
+        },
+        {
+            "name": "Inventory",
+            "type": "Frames",
+            "datasource": "time",
+            "target": "days"
+        },
+        {
+            "name": "Inventory",
+            "type": "Frames",
+            "datasource": "time",
+            "target": "hours"
+        },
+        {
+            "name": "Delivery",
+            "type": "Frames",
+            "datasource": "shareofdisplay",
+            "target": "shareoftime"
+        },
+        {
+            "name": "Inventory",
+            "type": "Audience",
+            "datasource": "metrics",
+            "target": "impacts"
+        },
+        {
+            "name": "Investment",
+            "type": "Frames",
+            "datasource": "GBP",
+            "target": "fixed"
+        }
+    ],
+    "grouping": [
+        {
+            "name": "Inventory",
+            "type": "Frames",
+            "datasource": "SPACE",
+            "target": "frame_id"
+        }
+    ],
+    "producttargeting": [
+        {
+            "name": "Inventory",
+            "type": "Frames",
+            "datasource": "SPACE",
+            "target": "frame_id",
+            "targetvalues": [
+                "1234931339",
+                "1235190735",
+                "1234931338",
+                "1235191547"
+            ]
+        },
+        {
+            "name": "Delivery",
+            "type": "Frames",
+            "datasource": "time",
+            "target": "days",
+            "targetvalues": [
+                "5",
+                "6"
+            ]
+        },
+        {
+            "name": "Delivery",
+            "type": "Frames",
+            "datasource": "shareofdisplay",
+            "target": "shareoftime",
+            "targetvalues": [
+                "20"
+            ]
+        },
+        {
+            "name": "Delivery",
+            "type": "Frames",
+            "datasource": "shareofdisplay",
+            "target": "spot",
+            "targetvalues": [
+                "5"
+            ]
+        }
+    ]
+}
