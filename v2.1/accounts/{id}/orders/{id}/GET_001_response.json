@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/accounts/{id}/orders/{id}/GET_response.json",
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/accounts/(id)/orders/(id)/GET_response.json",
     "id": "1235872",
     "accountid": "23873345",
     "publisherid": "7987654",

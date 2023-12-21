@@ -1,4 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/accounts/{id}/changerequests/{id}/PATCH_request.json",
+  "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/accounts/(id)/changerequests/(id)/PATCH_request.json",
   "comments": "Need to move dates back by 4 days"
 }

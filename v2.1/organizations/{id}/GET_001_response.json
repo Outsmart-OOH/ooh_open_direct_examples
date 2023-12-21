@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/organizations/{id}/GET_response.json",
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/organizations/(id)/GET_response.json",
     "address": {
         "addressline1": "1234 Tiger Blvd",
         "city": "Redmond",
