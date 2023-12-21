@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/accounts/(id)/orders/(id)/lines/(id)/PATCH_request.json",
+    "producttargeting": [
+        {
+            "name": "delivery",
+            "type": "frames",
+            "datasource": "time",
+            "target": "days",
+            "targetvalues": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ]
+        },
+        {
+            "name": "delivery",
+            "type": "frames",
+            "datasource": "shareofdisplay",
+            "target": "shareoftime",
+            "targetvalues": [
+                "30"
+            ]
+        },
+        {
+            "name": "delivery",
+            "type": "frames",
+            "datasource": "shareofdisplay",
+            "target": "spot",
+            "targetvalues": [
+                "10"
+            ]
+        }
+    ]
+}
