@@ -1,0 +1,171 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outsmart-OOH/OpenDirect_Schema/main/v2.1/uris/products/avails/POST_response.json",
+    "avails": [
+        {
+            "currency": "GBP",
+            "productid": "456366",
+            "availsstatus": [
+                {
+                    "status": "Available",
+                    "comment": "",
+                    "context": [],
+                    "producttargeting": [
+                        [
+                            {
+                                "name": "Inventory",
+                                "type": "Frames",
+                                "datasource": "SPACE",
+                                "target": "frame_id",
+                                "targetvalues": [
+                                    "1234931339"
+                                ]
+                            },
+                            {
+                                "name": "Delivery",
+                                "type": "Frames",
+                                "datasource": "shareofdisplay",
+                                "target": "shareoftime",
+                                "targetvalues": [
+                                    "20"
+                                ]
+                            },
+                            {
+                                "name": "Inventory",
+                                "type": "Audience",
+                                "datasource": "metrics",
+                                "target": "impacts",
+                                "targetvalues": [
+                                    "15000"
+                                ]
+                            },
+                            {
+                                "name": "Investment",
+                                "type": "Frames",
+                                "datasource": "GBP",
+                                "target": "fixed",
+                                "targetvalues": [
+                                    "150"
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Inventory",
+                                "type": "Frames",
+                                "datasource": "SPACE",
+                                "target": "frame_id",
+                                "targetvalues": [
+                                    "1235190735"
+                                ]
+                            },
+                            {
+                                "name": "Delivery",
+                                "type": "Frames",
+                                "datasource": "shareofdisplay",
+                                "target": "shareoftime",
+                                "targetvalues": [
+                                    "20"
+                                ]
+                            },
+                            {
+                                "name": "Inventory",
+                                "type": "Audience",
+                                "datasource": "metrics",
+                                "target": "impacts",
+                                "targetvalues": [
+                                    "25000"
+                                ]
+                            },
+                            {
+                                "name": "Investment",
+                                "type": "Frames",
+                                "datasource": "GBP",
+                                "target": "fixed",
+                                "targetvalues": [
+                                    "250"
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Inventory",
+                                "type": "Frames",
+                                "datasource": "SPACE",
+                                "target": "frame_id",
+                                "targetvalues": [
+                                    "1234931338"
+                                ]
+                            },
+                            {
+                                "name": "Delivery",
+                                "type": "Frames",
+                                "datasource": "shareofdisplay",
+                                "target": "shareoftime",
+                                "targetvalues": [
+                                    "20"
+                                ]
+                            },
+                            {
+                                "name": "Inventory",
+                                "type": "Audience",
+                                "datasource": "metrics",
+                                "target": "impacts",
+                                "targetvalues": [
+                                    "10000"
+                                ]
+                            },
+                            {
+                                "name": "Investment",
+                                "type": "Frames",
+                                "datasource": "GBP",
+                                "target": "fixed",
+                                "targetvalues": [
+                                    "100"
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Inventory",
+                                "type": "Frames",
+                                "datasource": "SPACE",
+                                "target": "frame_id",
+                                "targetvalues": [
+                                    "1235191547"
+                                ]
+                            },
+                            {
+                                "name": "Delivery",
+                                "type": "Frames",
+                                "datasource": "shareofdisplay",
+                                "target": "shareoftime",
+                                "targetvalues": [
+                                    "20"
+                                ]
+                            },
+                            {
+                                "name": "Inventory",
+                                "type": "Audience",
+                                "datasource": "metrics",
+                                "target": "impacts",
+                                "targetvalues": [
+                                    "30000"
+                                ]
+                            },
+                            {
+                                "name": "Investment",
+                                "type": "Frames",
+                                "datasource": "GBP",
+                                "target": "fixed",
+                                "targetvalues": [
+                                    "300"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ],
+            "price": 800
+        }
+    ]
+}
