@@ -84,8 +84,8 @@
             "intermediaryidaccess": [],
             "producttargeting": [
                 {
-                    "name": "inventory",
-                    "type": "frames",
+                    "name": "Inventory",
+                    "type": "Frames",
                     "datasource": "SPACE",
                     "target": "frame_id",
                     "targetvalues": [
@@ -99,24 +99,24 @@
                     "selectable": false
                 },
                 {
-                    "name": "delivery",
-                    "type": "frames",
+                    "name": "Delivery",
+                    "type": "Frames",
                     "datasource": "shareofdisplay",
                     "target": "shareoftime",
                     "selectable": false,
                     "default": 16.6
                 },
                 {
-                    "name": "delivery",
-                    "type": "frames",
+                    "name": "Delivery",
+                    "type": "Frames",
                     "datasource": "shareofdisplay",
                     "target": "spot",
                     "selectable": false,
                     "default": 5
                 },
                 {
-                    "Name": "prohibitions",
-                    "Type": "frames",
+                    "name": "Prohibitions",
+                    "type": "Frames",
                     "datasource": "SPACE",
                     "target": "Schools",
                     "targetvalues": [
@@ -125,11 +125,11 @@
                     ]
                 },
                 {
-                    "Name": "Prohibitions",
-                    "Type": "Frames",
-                    "DataSource": "Space",
-                    "Target": "HFSS",
-                    "TargetValues": [
+                    "name": "Prohibitions",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "HFSS",
+                    "targetvalues": [
                         "1234931569",
                         "1235202465"
                     ]
@@ -137,20 +137,20 @@
             ],
             "availsgroupby": [
                 {
-                    "name": "inventory",
-                    "type": "frames",
+                    "name": "Inventory",
+                    "type": "Frames",
                     "datasource": "SPACE",
                     "target": "frame_id"
                 },
                 {
-                    "name": "inventory",
-                    "type": "frames",
+                    "name": "Inventory",
+                    "type": "Frames",
                     "datasource": "SPACE",
                     "target": "frame_type"
                 },
                 {
-                    "name": "inventory",
-                    "type": "frames",
+                    "name": "Inventory",
+                    "type": "Frames",
                     "datasource": "SPACE",
                     "target": "format"
                 }
