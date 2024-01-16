@@ -16,7 +16,8 @@
                     "name": "Delivery",
                     "type": "Frames",
                     "datasource": "SPACE",
-                    "target": "EnvironmentGroup"
+                    "target": "EnvironmentGroup",
+                    "selectable": true
                 }
             ]
         }
