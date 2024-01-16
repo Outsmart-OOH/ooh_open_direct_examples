@@ -77,7 +77,7 @@
                     "Name": "Inventory",
                     "Type": "Frames",
                     "DataSource": "Space",
-                    "Target": "environment",
+                    "Target": "EnvironmentGroup",
                     "TargetValues": [
                         "Rail Stations",
                         "Roadside",
