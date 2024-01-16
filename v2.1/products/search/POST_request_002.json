@@ -1,19 +1,24 @@
 {
-    "producttargeting": [
+    "productsearch": [
         {
-            "name": "Inventory",
-            "type": "Frames",
-            "datasource": "SPACE",
-            "target": "FrameType",
-            "targetvalues": [
-                1,2
+            "producttargeting": [
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "SPACE",
+                    "target": "FrameType",
+                    "targetvalues": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "Delivery",
+                    "type": "Frames",
+                    "datasource": "SPACE",
+                    "target": "EnvironmentGroup"
+                }
             ]
-        },
-        {
-            "name": "Delivery",
-            "type": "Frames",
-            "datasource": "SPACE",
-            "target": "EnvironmentGroup"
         }
     ]
 }

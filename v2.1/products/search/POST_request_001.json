@@ -1,0 +1,14 @@
+{
+    "productsearch": [
+        {
+            "adunit": {
+                "spec": {
+                    "display": {
+                        "w": 300,
+                        "h": 250
+                    }
+                }
+            }
+        }
+    ]
+}
