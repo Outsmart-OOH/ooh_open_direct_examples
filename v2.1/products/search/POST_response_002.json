@@ -78,6 +78,7 @@
                     "Type": "Frames",
                     "DataSource": "Space",
                     "Target": "EnvironmentGroup",
+                    "Selectable": true,
                     "TargetValues": [
                         "Rail Stations",
                         "Roadside",
