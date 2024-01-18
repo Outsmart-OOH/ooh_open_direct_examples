@@ -1,0 +1,313 @@
+{
+    "products": [
+        {
+            "activedate": "2012-12-10T18:00:00.000Z",
+            "adunit": [
+                {
+                    "id": "1",
+                    "name": "6Sheet",
+                    "spec": {
+                        "display": {
+                            "pos": 7,
+                            "w": 1080,
+                            "h": 1920
+                        }
+                    }
+                }
+            ],
+            "allownocreative": true,
+            "baseprice": 10000,
+            "currency": "GBP",
+            "deliverytype": "Guaranteed",
+            "description": "Classic 6-sheets in Metropolis",
+            "icon": "http://<domain>/<path>/icon.jpg",
+            "id": "456560",
+            "languages": [
+                "EN"
+            ],
+            "leadtime": "T336H",
+            "reservedexpirytime": "P7D",
+            "advertiseridaccess": [
+                "adid1",
+                "adid2",
+                "adid3"
+            ],
+            "buyeridaccess": [
+                "Buyidx"
+            ],
+            "producttargeting": [
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "frame_id",
+                    "targetvalues": [
+                        "1235931339",
+                        "1236190735",
+                        "1235931338",
+                        "1236191547",
+                        "1235931569",
+                        "1236202465"
+                    ],
+                    "selectable": true,
+                    "minimum": 2,
+                    "maximum": 6,
+                    "increment": 2,
+                    "default": 6
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "Frametype",
+                    "targetvalues": [
+                        1
+                    ]
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "format",
+                    "targetvalues": [
+                        "6 sheets"
+                    ]
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "EnvironmentGroup",
+                    "selectable": true,
+                    "targetvalues": [
+                        "Rail Stations",
+                        "Roadside",
+                        "Underground"
+                    ]
+                },
+                {
+                    "name": "Delivery",
+                    "type": "Frames",
+                    "datasource": "Time",
+                    "target": "Days",
+                    "targetvalues": [],
+                    "selectable": true,
+                    "minimum": 14,
+                    "maximum": 365,
+                    "increment": 14,
+                    "default": 14
+                },
+                {
+                    "name": "Delivery",
+                    "type": "Frames",
+                    "datasource": "ShareOfDisplay",
+                    "target": "ShareOfTime",
+                    "targetvalues": [],
+                    "selectable": false,
+                    "minimum": 100,
+                    "maximum": 100,
+                    "default": 100
+                },
+                {
+                    "name": "Prohibitions",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "<Alcohol>",
+                    "targetvalues": [
+                        "1235931339",
+                        "1236190735"
+                    ]
+                }
+            ],
+            "AvailsGroupBy": [
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "frame_id"
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "frame_type"
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "format"
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "tv_area"
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "town"
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "environment"
+                }
+            ],
+            "TimeZone": "GMT",
+            "Url": "http://<domain>/<path>/creativespec.aspx"
+        },
+        {
+            "activedate": "2012-12-10T18:00:00.000Z",
+            "adunit": [
+                {
+                    "id": "1",
+                    "name": "48Sheet",
+                    "spec": {
+                        "display": {
+                            "pos": 7,
+                            "w": 800,
+                            "h": 400
+                        }
+                    }
+                }
+            ],
+            "allownocreative": true,
+            "baseprice": 20000,
+            "currency": "GBP",
+            "deliverytype": "Guaranteed",
+            "description": "Digital 48-sheets in Metropolis",
+            "icon": "http://<domain>/<path>/icon.jpg",
+            "id": "456561",
+            "languages": [
+                "EN"
+            ],
+            "leadtime": "T2H",
+            "reservedexpirytime": "P7D",
+            "advertiseridaccess": [
+                "adid1",
+                "adid2"
+            ],
+            "buyeridaccess": [
+                "Buyidx"
+            ],
+            "producttargeting": [
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "frame_id",
+                    "targetvalues": [
+                        "2235931339",
+                        "2236190735",
+                        "2235931338",
+                        "2236191547",
+                        "2235931569",
+                        "2236191547",
+                        "2235931569",
+                        "2236202465"
+                    ],
+                    "selectable": true,
+                    "minimum": 2,
+                    "maximum": 8,
+                    "increment": 1,
+                    "default": 8
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "Frametype",
+                    "targetvalues": [
+                        3
+                    ]
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "format",
+                    "targetvalues": [
+                        "48 sheets"
+                    ]
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "EnvironmentGroup",
+                    "selectable": true,
+                    "targetvalues": [
+                        "Roadside"
+                    ]
+                },
+                {
+                    "name": "Delivery",
+                    "type": "Frames",
+                    "datasource": "Time",
+                    "target": "Days",
+                    "targetvalues": [],
+                    "selectable": true,
+                    "minimum": 14,
+                    "maximum": 365,
+                    "increment": 14,
+                    "default": 14
+                },
+                {
+                    "name": "Delivery",
+                    "type": "Frames",
+                    "datasource": "ShareOfDisplay",
+                    "target": "ShareOfTime",
+                    "targetvalues": [],
+                    "selectable": false,
+                    "minimum": 5,
+                    "maximum": 50,
+                    "default": 20
+                }
+            ],
+            "AvailsGroupBy": [
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "frame_id"
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "frame_type"
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "format"
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "tv_area"
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "town"
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "Space",
+                    "target": "environment"
+                }
+            ],
+            "TimeZone": "GMT",
+            "Url": "http://<domain>/<path>/creativespec.aspx"
+        }
+    ]
+}
