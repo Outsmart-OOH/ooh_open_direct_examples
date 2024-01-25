@@ -1,25 +1,21 @@
 {
-    "productsearch": [
+    "producttargeting": [
         {
-            "producttargeting": [
-                {
-                    "name": "Inventory",
-                    "type": "Frames",
-                    "datasource": "SPACE",
-                    "target": "FrameID",
-                    "selectable": true
-                },
-                {
-                    "name": "Delivery",
-                    "type": "Frames",
-                    "datasource": "SPACE",
-                    "target": "Format",
-                    "selectable": true,
-                    "targetvalues": [
-                        4,
-                        5
-                    ]
-                }
+            "name": "Inventory",
+            "type": "Frames",
+            "datasource": "SPACE",
+            "target": "FrameID",
+            "selectable": true
+        },
+        {
+            "name": "Delivery",
+            "type": "Frames",
+            "datasource": "SPACE",
+            "target": "Format",
+            "selectable": true,
+            "targetvalues": [
+                4,
+                5
             ]
         }
     ]

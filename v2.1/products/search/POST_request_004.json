@@ -1,25 +1,21 @@
 {
-    "productsearch": [
+    "producttargeting": [
         {
-            "producttargeting": [
-                {
-                    "name": "Inventory",
-                    "type": "Frames",
-                    "datasource": "SPACE",
-                    "target": "FrameID",
-                    "targetvalues": [
-                        "2000302447",
-                        "2000302453",
-                        "2000302448",
-                        "2000302449",
-                        "2000302450",
-                        "2000302451",
-                        "2000302452",
-                        "2000302454",
-                        "2000302455",
-                        "2000302456"
-                    ]
-                }
+            "name": "Inventory",
+            "type": "Frames",
+            "datasource": "SPACE",
+            "target": "FrameID",
+            "targetvalues": [
+                "2000302447",
+                "2000302453",
+                "2000302448",
+                "2000302449",
+                "2000302450",
+                "2000302451",
+                "2000302452",
+                "2000302454",
+                "2000302455",
+                "2000302456"
             ]
         }
     ]

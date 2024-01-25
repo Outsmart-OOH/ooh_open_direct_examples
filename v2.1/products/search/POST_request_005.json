@@ -1,0 +1,35 @@
+{
+    "$and": [
+        {
+            "producttargeting": [
+                {
+                    "name": "Inventory",
+                    "type": "Frames",
+                    "datasource": "SPACE",
+                    "target": "FrameType",
+                    "targetvalues": [
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "name": "Delivery",
+                    "type": "Frames",
+                    "datasource": "SPACE",
+                    "target": "EnvironmentGroup",
+                    "selectable": true
+                }
+            ]
+        },
+        {
+            "adunit": {
+                "spec": {
+                    "display": {
+                        "w": 1080,
+                        "h": 1920
+                    }
+                }
+            }
+        }
+    ]
+}

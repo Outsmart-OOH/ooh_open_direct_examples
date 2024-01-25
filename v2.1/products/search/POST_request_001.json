@@ -1,11 +1,21 @@
 {
-    "productsearch": [
+    "$or": [
         {
             "adunit": {
                 "spec": {
                     "display": {
                         "w": 300,
                         "h": 250
+                    }
+                }
+            }
+        },
+        {
+            "adunit": {
+                "spec": {
+                    "display": {
+                        "w": 600,
+                        "h": 500
                     }
                 }
             }
